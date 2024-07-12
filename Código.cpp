@@ -46,14 +46,14 @@ void verifvitO(){
 
 void verifvitX(){
 	if (jogo[0][0]==jogadorX && jogo[0][0]==jogo[0][2] && jogo[0][0] == jogo[0][1]){
- 	cout << "\n PARABÉNS!! O Jogador X GANHOU!! \n";
+ 	cout << "\n PARABÃ‰NS!! O Jogador X GANHOU!! \n";
  	ganhador = 'X';
  	
  	}else if (jogo[1][0]==jogadorX && jogo[1][0]==jogo[1][2] && jogo[1][0] == jogo[1][1]){
  		cout << "\n PARABENS!! O Jogador X GANHOU!! \n";
  		ganhador = 'X';
 	 } else if(jogo[2][0]==jogadorO && jogo[2][0]==jogo[2][2] && jogo[2][0] == jogo[2][1]){
-	 	cout << "\n PARABÉNS!! O Jogador X GANHOU!! \n";
+	 	cout << "\n PARABÃ‰NS!! O Jogador X GANHOU!! \n";
 	 	ganhador = 'X';
 	 }else if (jogo[0][0]==jogadorX && jogo[0][0]==jogo[1][0] && jogo[0][0] == jogo[2][0]){
 	 	cout << "\n PARABENS!! O Jogador X GANHOU!! \n";
